@@ -1,61 +1,64 @@
 QMainWindow {
-    background-color: #2b2b2b;
+    background-color: #0b1026; 
 }
 
 QLabel {
-    color: #e0e0e0;
+    color: #e6e6ff;
     font-size: 14px;
     font-family: "Segoe UI", Arial;
 }
 
 QGroupBox {
-    border: 2px solid #555;
-    border-radius: 5px;
+    border: 2px solid #ff4fd8; 
+    border-radius: 6px;
     margin-top: 20px;
-    color: #f7931e; /* Safety Orange */
+    color: #ff4fd8;
     font-weight: bold;
 }
 
 QGroupBox::title {
     subcontrol-origin: margin;
     left: 10px;
-    padding: 0 3px;
+    padding: 0 6px;
 }
 
 QPushButton {
-    background-color: #f7931e;
-    color: #000;
-    border-radius: 4px;
+    background-color: #1a1f4a;
+    color: #ff4fd8;
+    border: 2px solid #ff4fd8;
+    border-radius: 6px;
     padding: 8px;
     font-weight: bold;
 }
 
 QPushButton:hover {
-    background-color: #ffaa33;
+    background-color: #252b6b;
+    color: #ffffff;
 }
 
 QPushButton:pressed {
-    background-color: #c67618;
+    background-color: #ff4fd8;
+    color: #0b1026;
 }
 
 QTableWidget {
-    background-color: #333;
-    color: #ddd;
-    gridline-color: #555;
-    selection-background-color: #f7931e;
-    selection-color: #000;
+    background-color: #111633;
+    color: #e6e6ff;
+    gridline-color: #2c3270;
+    selection-background-color: #ff4fd8;
+    selection-color: #0b1026;
 }
 
 QHeaderView::section {
-    background-color: #444;
-    color: #fff;
-    padding: 4px;
-    border: 1px solid #555;
+    background-color: #1a1f4a;
+    color: #ff4fd8;
+    padding: 6px;
+    border: 1px solid #2c3270;
 }
 
 QTextEdit {
-    background-color: #1e1e1e;
-    color: #00ff00; /* Hacker Terminal Green */
+    background-color: #0e1330;
+    color: #ff7ae6; /* soft neon pink */
     font-family: Consolas, Monospace;
-    border: 1px solid #555;
+    border: 1px solid #ff4fd8;
 }
